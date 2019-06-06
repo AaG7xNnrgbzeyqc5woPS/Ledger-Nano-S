@@ -1,0 +1,42 @@
+Ledger Nano S test reporter
+
+1, Buy Ledger Nano S
+   1) Must Buy Ledger From https://www.ledger.com/
+   2) https://shop.ledger.com/products/ledger-nano-s
+   3) https://shop.ledger.com/pages/supported-crypto-assets
+
+2, Download ledger-live
+   1) https://shop.ledger.com/pages/ledger-live
+   2) https://download-live.ledger.com/releases/latest/download/linux
+
+3,  AppImage
+  1) https://appimage.org/
+ 运行一个Appimage应用，如此简单:
+给予它运行权限
+$ chmod a+x Subsurface*.AppImage
+然后直接运行！
+$ ./Subsurface*.AppImage
+非常简单，不是吗？ 
+
+4,Take your first steps
+https://support.ledger.com/hc/en-us/articles/360006395233-Take-your-first-steps
+
+
+10  Secure your PIN & recovery phrase
+    https://support.ledger.com/hc/en-us/articles/360005514233
+
+11  Ledger Support Ledger Live desktop 
+https://support.ledger.com/hc/en-us/categories/360000570033-Ledger-Live-desktop
+
+12,  Ledger Nano S设备首先必须初始化，以后每次必须链接并且解锁，才能在电脑上发现，
+  可以使用 lsusb 查看 设备是否链接好，多比较下可以发现规律
+13, linux 需要一些设置，才能在 ledger-live  链接，链接不上的时候，ledger-live里面有帮助，照着做就可以啦
+    如果 ledger-live 能操作了，然后在 virtual box的操作界面能切换 ledger Nano S 设备到虚拟机内，
+  然后虚拟机内就可以安装 ledger-live 操作   ledger Nano S 
+  
+ 14 测试平台 Linux
+ 
+ 清除功能：
+ 15,pin码输入错误三次清除Ledger Nano s,恢复出厂设置
+ 16，进入Ledger Nano s 内，有恢复出厂设置功能。
+ 17，Ledger Live 内有清除 电脑全部数据和配置参数的功能
